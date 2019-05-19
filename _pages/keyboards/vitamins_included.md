@@ -8,14 +8,15 @@ permalink: /keyboards/vitamins_included/
 
 {% include badge.html path="vitamins_included" %}
 
-The Vitamins included is a variant of the Let's Split.
+The "Vitamins included" is a variant of the Let's Split.
 It started out as a DIY kit for a version of the Let's Split using kailh sockets,
-and then grew into the first revision. Lessons were learned and changes were made, and that got us to this version. The keyboard is named "Vitamins Included", because no soldering is required. Everything is on the PCB. 
+and then grew into the first revision. Lessons were learned and changes were made, and that got us to this version. The keyboard is named "Vitamins Included", because no soldering is required. Everything is on the PCB.
 
-The term vitamins is often used in reprap 3D printers to describe parts you can't make yourself/have to buy, and as such was the inspiration for the name. Nothing super complicated :)
+The term vitamins is often used in reprap 3D printers to describe parts you can't make yourself/have to buy, and as such was the inspiration for the name.
 
 Like the Let's split, it's a split 40% board (4x6 on each half), that uses an ATMega32U4, and Serial or I2C to communicate between the halves.
-Revision 2 also has 6 WS2812B underglow leds on each half, and has spots for further WS2812 expansion, as well as a spot for a buzzer, if one wishes to add that.
+
+Revision 2 uses USB-C, has a few extra mounting holes, has 6 WS2812B underglow leds on each half with spots for further WS2812 expansion, as well as a spot for a buzzer, if one wishes to add that.
 
 The board ships with QMK-DFU and a default QWERTY keymap flashed.  
 The keymap used, is the [vitamins_included/keymaps/default](https://github.com/qmk/qmk_firmware/tree/master/keyboards/vitamins_included/keymaps/default)
@@ -33,7 +34,7 @@ The keymap used, is the [vitamins_included/keymaps/default](https://github.com/q
 * [Left case](3d/flat/1.5mm_plate/case-left.step)
 * [right case](3d/flat/1.5mm_plate/case-right.step)
 
-## Source
+## CAD Source
 The case was designed in Fusion 360. The right half is just a mirrored left-half
 
 * [Left flat-case source](https://a360.co/2IwRsjE)
@@ -42,8 +43,8 @@ The PCB files are available [on github](https://github.com/Duckle29/Vitamins-inc
 
 ## PCB specific features
 
-![Top render](images/top.png)
-![Bottom render](images/bot.png)
+[![Top render](images/top.png)](images/top.png)
+[![Bottom render](images/bot.png)](images/bot.png)
 
 ### Top side
 
